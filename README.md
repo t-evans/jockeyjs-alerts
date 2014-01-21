@@ -2,18 +2,20 @@ jockeyjs-alerts
 ===============
 
 A Javascript library for sending native-style alerts (without the current URL as the title) from 
-a web app running in a mobile app's WebView.
+a web app/site running in a mobile app's WebView. This also adds a confirm-style alert with multiple
+configurable buttons.
 
-This extends the functionality of the JockeyJS lib (https://github.com/tcoulter/jockeyjs) by
+This extends the functionality of Tim Coulter's JockeyJS lib (https://github.com/tcoulter/jockeyjs) by
 adding alert() and confirm() functions to the Jockey JS object.
 
 
-Javascript/webapp Setup:
+**Javascript/webapp Setup:**
 
  1. Copy the jockey.alerts.js and jockey.js files to your web app (you can obtain the latest jockey.js file from https://github.com/tcoulter/jockeyjs).
- For Javascript usage, see example.html.
 
-iOS Setup:
+ For Javascript usage, see html/example.html.
+
+**iOS Setup:**
  1. Download and install the Jockeyjs library using the link above
  2. Set up Jockey to listen to web URLs (taken from the jockeyjs setup instructions):
  
@@ -29,7 +31,8 @@ iOS Setup:
 
  
 
+<br><br>
 
+**Android Setup:**
 
-Android Setup:
  (not supported yet but should be available soon)
