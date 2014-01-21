@@ -6,12 +6,13 @@ a web app/site running in a mobile app's WebView. This also adds a confirm-style
 configurable buttons.
 
 This extends the functionality of Tim Coulter's JockeyJS lib (https://github.com/tcoulter/jockeyjs) by
-adding alert() and confirm() functions to the Jockey JS object.
+adding alert() and confirm() functions to the Jockey JS object. However, currently, it requires a fork
+of that lib that has one small change (https://github.com/t-evans/jockeyjs).
 
 
 **Javascript/webapp Setup:**
 
- 1. Copy the jockey.alerts.js and jockey.js files to your web app (you can obtain the latest jockey.js file from https://github.com/tcoulter/jockeyjs).
+ 1. Copy the jockey.alerts.js and jockey.js files to your web app (you can obtain the latest jockey.js file from https://github.com/t-evans/jockeyjs).
 
  For Javascript usage, see html/example.html.
 
