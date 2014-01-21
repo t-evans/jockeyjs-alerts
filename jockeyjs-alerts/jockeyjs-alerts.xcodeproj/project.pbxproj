@@ -30,6 +30,7 @@
 		05825DFB188ED8680031775F /* jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 05825DF9188ECE4A0031775F /* jquery.min.js */; };
 		05825DFC188ED8680031775F /* jockey.js in Resources */ = {isa = PBXBuildFile; fileRef = 05825DF7188ECE420031775F /* jockey.js */; };
 		05825DFD188ED8680031775F /* jockey.alerts.js in Resources */ = {isa = PBXBuildFile; fileRef = 05825DEB188DED3E0031775F /* jockey.alerts.js */; };
+		05825E01188EF2A40031775F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 05825E00188EF2A40031775F /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		05825DF5188DF38D0031775F /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		05825DF7188ECE420031775F /* jockey.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jockey.js; sourceTree = "<group>"; };
 		05825DF9188ECE4A0031775F /* jquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.min.js; sourceTree = "<group>"; };
+		05825E00188EF2A40031775F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 		05825DB8188DEB8A0031775F /* jockeyjs-alerts */ = {
 			isa = PBXGroup;
 			children = (
+				05825E00188EF2A40031775F /* README.md */,
 				05825DE4188DEC140031775F /* Jockey.h */,
 				05825DE5188DEC140031775F /* Jockey.m */,
 				05825DE1188DEBF50031775F /* JockeyjsAlerts.h */,
@@ -276,6 +279,7 @@
 				05825DBD188DEB8A0031775F /* InfoPlist.strings in Resources */,
 				05825DF3188DF2C80031775F /* Storyboard.storyboard in Resources */,
 				05825DC5188DEB8A0031775F /* Images.xcassets in Resources */,
+				05825E01188EF2A40031775F /* README.md in Resources */,
 				05825DF1188DEDC20031775F /* example.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
