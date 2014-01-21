@@ -25,7 +25,7 @@
 //  WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ;(function(Jockey, $) {
-    Jockey.alert = function(title, message, buttonLabel, onAlertDismiss) {
+    Jockey.alert = function(message, onAlertDismiss, title, buttonLabel) {
         Jockey.send("alert", {
             title: title,
             msg: message,

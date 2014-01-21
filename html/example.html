@@ -10,13 +10,16 @@
         
         <script type="text/javascript">
             var sendAlert = function() {
-                    Jockey.alert("My Alert", "Hello World!", "Dismiss", function() {
+                    Jockey.alert("Hello World!", function() {
                         $('#alert-sent').show();
-                    });
+                    }, "My Alert Title", "Dismiss");
+                },
+                sendAlertWithDefaultOptions = function() {
+                    Jockey.alert("Alert with default options");
                 },
                 sendConfirm = function() {
                     Jockey.confirm({
-                       title: "My Confirm",
+                       title: "My Confirm Title",
                        message: "Cancel or Continue?",
                        buttonLabels: ["Cancel", "Continue"],
                        buttonCallbacks: [
@@ -49,6 +52,7 @@
                 };
             $(function() {
                 $('#alert-link').click(sendAlert);
+                $('#alert-with-default-options').click(sendAlertWithDefaultOptions);
                 $('#confirm-link').click(sendConfirm);
                 $('#multi-button-alert-link').click(sendMultiButtonAlert);
             });
@@ -58,6 +62,9 @@
         <div>
             <a id="alert-link" href="javascript:void(0);">Send Alert</a>
             <div id="alert-sent" style="display:none;">Sent!</div>
+        </div>
+        <div style="padding-top: 50px;">
+            <a id="alert-with-default-options" href="javascript:void(0);">Send Alert with No Title</a>
         </div>
         <div style="padding-top: 50px;">
             <a id="confirm-link" href="javascript:void(0);">Send Confirm</a>
