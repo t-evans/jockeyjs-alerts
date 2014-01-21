@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05825DB3188DEB8A0031775F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05825DB2188DEB8A0031775F /* Foundation.framework */; };
+		05825DB5188DEB8A0031775F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05825DB4188DEB8A0031775F /* CoreGraphics.framework */; };
+		05825DB7188DEB8A0031775F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05825DB6188DEB8A0031775F /* UIKit.framework */; };
+		05825DBD188DEB8A0031775F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05825DBB188DEB8A0031775F /* InfoPlist.strings */; };
+		05825DBF188DEB8A0031775F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05825DBE188DEB8A0031775F /* main.m */; };
+		05825DC3188DEB8A0031775F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05825DC2188DEB8A0031775F /* AppDelegate.m */; };
+		05825DC5188DEB8A0031775F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05825DC4188DEB8A0031775F /* Images.xcassets */; };
+		05825DCC188DEB8A0031775F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05825DCB188DEB8A0031775F /* XCTest.framework */; };
+		05825DCD188DEB8A0031775F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05825DB2188DEB8A0031775F /* Foundation.framework */; };
+		05825DCE188DEB8A0031775F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05825DB6188DEB8A0031775F /* UIKit.framework */; };
+		05825DD6188DEB8A0031775F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05825DD4188DEB8A0031775F /* InfoPlist.strings */; };
+		05825DD8188DEB8A0031775F /* jockeyjs_alertsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05825DD7188DEB8A0031775F /* jockeyjs_alertsTests.m */; };
+		05825DE3188DEBF50031775F /* JockeyjsAlerts.m in Sources */ = {isa = PBXBuildFile; fileRef = 05825DE2188DEBF50031775F /* JockeyjsAlerts.m */; };
+		05825DE6188DEC140031775F /* Jockey.m in Sources */ = {isa = PBXBuildFile; fileRef = 05825DE5188DEC140031775F /* Jockey.m */; };
+		05825DEC188DED3E0031775F /* jockey.alerts.js in Sources */ = {isa = PBXBuildFile; fileRef = 05825DEB188DED3E0031775F /* jockey.alerts.js */; };
+		05825DF1188DEDC20031775F /* example.html in Resources */ = {isa = PBXBuildFile; fileRef = 05825DF0188DEDC20031775F /* example.html */; };
+		05825DF3188DF2C80031775F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05825DF2188DF2C80031775F /* Storyboard.storyboard */; };
+		05825DF6188DF38D0031775F /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05825DF5188DF38D0031775F /* WebViewController.m */; };
+		05825DF8188ECE420031775F /* jockey.js in Sources */ = {isa = PBXBuildFile; fileRef = 05825DF7188ECE420031775F /* jockey.js */; };
+		05825DFA188ECE4A0031775F /* jquery.min.js in Sources */ = {isa = PBXBuildFile; fileRef = 05825DF9188ECE4A0031775F /* jquery.min.js */; };
+		05825DFB188ED8680031775F /* jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 05825DF9188ECE4A0031775F /* jquery.min.js */; };
+		05825DFC188ED8680031775F /* jockey.js in Resources */ = {isa = PBXBuildFile; fileRef = 05825DF7188ECE420031775F /* jockey.js */; };
+		05825DFD188ED8680031775F /* jockey.alerts.js in Resources */ = {isa = PBXBuildFile; fileRef = 05825DEB188DED3E0031775F /* jockey.alerts.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05825DCF188DEB8A0031775F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05825DA7188DEB8A0031775F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05825DAE188DEB8A0031775F;
+			remoteInfo = "jockeyjs-alerts";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05825DAF188DEB8A0031775F /* jockeyjs-alerts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jockeyjs-alerts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05825DB2188DEB8A0031775F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05825DB4188DEB8A0031775F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		05825DB6188DEB8A0031775F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		05825DBA188DEB8A0031775F /* jockeyjs-alerts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "jockeyjs-alerts-Info.plist"; sourceTree = "<group>"; };
+		05825DBC188DEB8A0031775F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05825DBE188DEB8A0031775F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05825DC0188DEB8A0031775F /* jockeyjs-alerts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jockeyjs-alerts-Prefix.pch"; sourceTree = "<group>"; };
+		05825DC1188DEB8A0031775F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		05825DC2188DEB8A0031775F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		05825DC4188DEB8A0031775F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		05825DCA188DEB8A0031775F /* jockeyjs-alertsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jockeyjs-alertsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05825DCB188DEB8A0031775F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		05825DD3188DEB8A0031775F /* jockeyjs-alertsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "jockeyjs-alertsTests-Info.plist"; sourceTree = "<group>"; };
+		05825DD5188DEB8A0031775F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05825DD7188DEB8A0031775F /* jockeyjs_alertsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jockeyjs_alertsTests.m; sourceTree = "<group>"; };
+		05825DE1188DEBF50031775F /* JockeyjsAlerts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JockeyjsAlerts.h; sourceTree = "<group>"; };
+		05825DE2188DEBF50031775F /* JockeyjsAlerts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JockeyjsAlerts.m; sourceTree = "<group>"; };
+		05825DE4188DEC140031775F /* Jockey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jockey.h; sourceTree = "<group>"; };
+		05825DE5188DEC140031775F /* Jockey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jockey.m; sourceTree = "<group>"; };
+		05825DEB188DED3E0031775F /* jockey.alerts.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jockey.alerts.js; sourceTree = "<group>"; };
+		05825DF0188DEDC20031775F /* example.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = example.html; sourceTree = "<group>"; };
+		05825DF2188DF2C80031775F /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		05825DF4188DF38D0031775F /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		05825DF5188DF38D0031775F /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		05825DF7188ECE420031775F /* jockey.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jockey.js; sourceTree = "<group>"; };
+		05825DF9188ECE4A0031775F /* jquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.min.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05825DAC188DEB8A0031775F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05825DB5188DEB8A0031775F /* CoreGraphics.framework in Frameworks */,
+				05825DB7188DEB8A0031775F /* UIKit.framework in Frameworks */,
+				05825DB3188DEB8A0031775F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05825DC7188DEB8A0031775F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05825DCC188DEB8A0031775F /* XCTest.framework in Frameworks */,
+				05825DCE188DEB8A0031775F /* UIKit.framework in Frameworks */,
+				05825DCD188DEB8A0031775F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05825DA6188DEB8A0031775F = {
+			isa = PBXGroup;
+			children = (
+				05825DB8188DEB8A0031775F /* jockeyjs-alerts */,
+				05825DD1188DEB8A0031775F /* jockeyjs-alertsTests */,
+				05825DB1188DEB8A0031775F /* Frameworks */,
+				05825DB0188DEB8A0031775F /* Products */,
+				05825DEA188DED3E0031775F /* js */,
+				05825DEF188DEDC20031775F /* html */,
+			);
+			sourceTree = "<group>";
+		};
+		05825DB0188DEB8A0031775F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05825DAF188DEB8A0031775F /* jockeyjs-alerts.app */,
+				05825DCA188DEB8A0031775F /* jockeyjs-alertsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05825DB1188DEB8A0031775F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05825DB2188DEB8A0031775F /* Foundation.framework */,
+				05825DB4188DEB8A0031775F /* CoreGraphics.framework */,
+				05825DB6188DEB8A0031775F /* UIKit.framework */,
+				05825DCB188DEB8A0031775F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05825DB8188DEB8A0031775F /* jockeyjs-alerts */ = {
+			isa = PBXGroup;
+			children = (
+				05825DE4188DEC140031775F /* Jockey.h */,
+				05825DE5188DEC140031775F /* Jockey.m */,
+				05825DE1188DEBF50031775F /* JockeyjsAlerts.h */,
+				05825DE2188DEBF50031775F /* JockeyjsAlerts.m */,
+				05825DC1188DEB8A0031775F /* AppDelegate.h */,
+				05825DC2188DEB8A0031775F /* AppDelegate.m */,
+				05825DC4188DEB8A0031775F /* Images.xcassets */,
+				05825DB9188DEB8A0031775F /* Supporting Files */,
+				05825DF2188DF2C80031775F /* Storyboard.storyboard */,
+				05825DF4188DF38D0031775F /* WebViewController.h */,
+				05825DF5188DF38D0031775F /* WebViewController.m */,
+			);
+			path = "jockeyjs-alerts";
+			sourceTree = "<group>";
+		};
+		05825DB9188DEB8A0031775F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05825DBA188DEB8A0031775F /* jockeyjs-alerts-Info.plist */,
+				05825DBB188DEB8A0031775F /* InfoPlist.strings */,
+				05825DBE188DEB8A0031775F /* main.m */,
+				05825DC0188DEB8A0031775F /* jockeyjs-alerts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05825DD1188DEB8A0031775F /* jockeyjs-alertsTests */ = {
+			isa = PBXGroup;
+			children = (
+				05825DD7188DEB8A0031775F /* jockeyjs_alertsTests.m */,
+				05825DD2188DEB8A0031775F /* Supporting Files */,
+			);
+			path = "jockeyjs-alertsTests";
+			sourceTree = "<group>";
+		};
+		05825DD2188DEB8A0031775F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05825DD3188DEB8A0031775F /* jockeyjs-alertsTests-Info.plist */,
+				05825DD4188DEB8A0031775F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05825DEA188DED3E0031775F /* js */ = {
+			isa = PBXGroup;
+			children = (
+				05825DF9188ECE4A0031775F /* jquery.min.js */,
+				05825DF7188ECE420031775F /* jockey.js */,
+				05825DEB188DED3E0031775F /* jockey.alerts.js */,
+			);
+			name = js;
+			path = ../js;
+			sourceTree = "<group>";
+		};
+		05825DEF188DEDC20031775F /* html */ = {
+			isa = PBXGroup;
+			children = (
+				05825DF0188DEDC20031775F /* example.html */,
+			);
+			name = html;
+			path = ../html;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05825DAE188DEB8A0031775F /* jockeyjs-alerts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05825DDB188DEB8A0031775F /* Build configuration list for PBXNativeTarget "jockeyjs-alerts" */;
+			buildPhases = (
+				05825DAB188DEB8A0031775F /* Sources */,
+				05825DAC188DEB8A0031775F /* Frameworks */,
+				05825DAD188DEB8A0031775F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "jockeyjs-alerts";
+			productName = "jockeyjs-alerts";
+			productReference = 05825DAF188DEB8A0031775F /* jockeyjs-alerts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05825DC9188DEB8A0031775F /* jockeyjs-alertsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05825DDE188DEB8A0031775F /* Build configuration list for PBXNativeTarget "jockeyjs-alertsTests" */;
+			buildPhases = (
+				05825DC6188DEB8A0031775F /* Sources */,
+				05825DC7188DEB8A0031775F /* Frameworks */,
+				05825DC8188DEB8A0031775F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05825DD0188DEB8A0031775F /* PBXTargetDependency */,
+			);
+			name = "jockeyjs-alertsTests";
+			productName = "jockeyjs-alertsTests";
+			productReference = 05825DCA188DEB8A0031775F /* jockeyjs-alertsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05825DA7188DEB8A0031775F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Nutrislice;
+				TargetAttributes = {
+					05825DC9188DEB8A0031775F = {
+						TestTargetID = 05825DAE188DEB8A0031775F;
+					};
+				};
+			};
+			buildConfigurationList = 05825DAA188DEB8A0031775F /* Build configuration list for PBXProject "jockeyjs-alerts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05825DA6188DEB8A0031775F;
+			productRefGroup = 05825DB0188DEB8A0031775F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05825DAE188DEB8A0031775F /* jockeyjs-alerts */,
+				05825DC9188DEB8A0031775F /* jockeyjs-alertsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05825DAD188DEB8A0031775F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05825DFB188ED8680031775F /* jquery.min.js in Resources */,
+				05825DFC188ED8680031775F /* jockey.js in Resources */,
+				05825DFD188ED8680031775F /* jockey.alerts.js in Resources */,
+				05825DBD188DEB8A0031775F /* InfoPlist.strings in Resources */,
+				05825DF3188DF2C80031775F /* Storyboard.storyboard in Resources */,
+				05825DC5188DEB8A0031775F /* Images.xcassets in Resources */,
+				05825DF1188DEDC20031775F /* example.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05825DC8188DEB8A0031775F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05825DD6188DEB8A0031775F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05825DAB188DEB8A0031775F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05825DE6188DEC140031775F /* Jockey.m in Sources */,
+				05825DF8188ECE420031775F /* jockey.js in Sources */,
+				05825DFA188ECE4A0031775F /* jquery.min.js in Sources */,
+				05825DF6188DF38D0031775F /* WebViewController.m in Sources */,
+				05825DC3188DEB8A0031775F /* AppDelegate.m in Sources */,
+				05825DEC188DED3E0031775F /* jockey.alerts.js in Sources */,
+				05825DE3188DEBF50031775F /* JockeyjsAlerts.m in Sources */,
+				05825DBF188DEB8A0031775F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05825DC6188DEB8A0031775F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05825DD8188DEB8A0031775F /* jockeyjs_alertsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05825DD0188DEB8A0031775F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05825DAE188DEB8A0031775F /* jockeyjs-alerts */;
+			targetProxy = 05825DCF188DEB8A0031775F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05825DBB188DEB8A0031775F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05825DBC188DEB8A0031775F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		05825DD4188DEB8A0031775F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05825DD5188DEB8A0031775F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05825DD9188DEB8A0031775F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05825DDA188DEB8A0031775F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05825DDC188DEB8A0031775F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jockeyjs-alerts/jockeyjs-alerts-Prefix.pch";
+				INFOPLIST_FILE = "jockeyjs-alerts/jockeyjs-alerts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		05825DDD188DEB8A0031775F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jockeyjs-alerts/jockeyjs-alerts-Prefix.pch";
+				INFOPLIST_FILE = "jockeyjs-alerts/jockeyjs-alerts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		05825DDF188DEB8A0031775F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/jockeyjs-alerts.app/jockeyjs-alerts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jockeyjs-alerts/jockeyjs-alerts-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "jockeyjs-alertsTests/jockeyjs-alertsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		05825DE0188DEB8A0031775F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/jockeyjs-alerts.app/jockeyjs-alerts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jockeyjs-alerts/jockeyjs-alerts-Prefix.pch";
+				INFOPLIST_FILE = "jockeyjs-alertsTests/jockeyjs-alertsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05825DAA188DEB8A0031775F /* Build configuration list for PBXProject "jockeyjs-alerts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05825DD9188DEB8A0031775F /* Debug */,
+				05825DDA188DEB8A0031775F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05825DDB188DEB8A0031775F /* Build configuration list for PBXNativeTarget "jockeyjs-alerts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05825DDC188DEB8A0031775F /* Debug */,
+				05825DDD188DEB8A0031775F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05825DDE188DEB8A0031775F /* Build configuration list for PBXNativeTarget "jockeyjs-alertsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05825DDF188DEB8A0031775F /* Debug */,
+				05825DE0188DEB8A0031775F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05825DA7188DEB8A0031775F /* Project object */;
+}

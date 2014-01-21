@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html lang="en-En">
+    
+    <head>
+        <title>Error - Nutrislice</title>
+        <meta charset="UTF-8"/>
+        <script type="text/javascript" src="%@"></script>
+        <script type="text/javascript" src="%@"></script>
+        <script type="text/javascript" src="%@"></script>
+        
+        <script type="text/javascript">
+            var sendAlert = function() {
+                    Jockey.alert("My Alert", "Hello World!", "Dismiss", function() {
+                        $('#alert-sent').show();
+                    });
+                },
+                sendConfirm = function() {
+                    Jockey.confirm({
+                       title: "My Confirm",
+                       message: "Cancel or Continue?",
+                       buttonLabels: ["Cancel", "Continue"],
+                       buttonCallbacks: [
+                           function() {
+                               $('#confirm-sent').html('You clicked Cancel').show();
+                           },
+                           function() {
+                               $('#confirm-sent').html('You clicked Continue').show();
+                           }
+                       ]
+                   });
+                },
+                sendMultiButtonAlert = function() {
+                    Jockey.confirm({
+                        title: "Multiple Choice",
+                        message: "Choose one",
+                        buttonLabels: ["Button 1", "Button 2", "Button 3"],
+                        buttonCallbacks: [
+                            function() {
+                                $('#multi-button-alert-sent').html('You clicked Button 1').show();
+                            },
+                            function() {
+                                $('#multi-button-alert-sent').html('You clicked Button 2').show();
+                            },
+                            function() {
+                                $('#multi-button-alert-sent').html('You clicked Button 3').show();
+                            }
+                        ]
+                    });
+                };
+            $(function() {
+                $('#alert-link').click(sendAlert);
+                $('#confirm-link').click(sendConfirm);
+                $('#multi-button-alert-link').click(sendMultiButtonAlert);
+            });
+        </script>
+    </head>
+    <body style="font-size: 28px; margin-left: 20px; margin-top: 100px;">
+        <div>
+            <a id="alert-link" href="javascript:void(0);">Send Alert</a>
+            <div id="alert-sent" style="display:none;">Sent!</div>
+        </div>
+        <div style="padding-top: 50px;">
+            <a id="confirm-link" href="javascript:void(0);">Send Confirm</a>
+            <div id="confirm-sent" style="display:none;"></div>
+        </div>
+        <div style="padding-top: 50px;">
+            <a id="multi-button-alert-link" href="javascript:void(0);">Send Alert With Various Buttons</a>
+            <div id="multi-button-alert-sent" style="display:none;"></div>
+        </div>
+    </body>
+</html>
