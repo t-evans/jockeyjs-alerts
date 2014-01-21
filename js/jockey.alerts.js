@@ -51,8 +51,15 @@
         options = $.extend({}, _confirmDefaults, options);
         Jockey.on('confirm-callback', function(payload) {
             var selectedButtonIndex = payload.buttonIndex;
-            if (options.buttonCallbacks != null && selectedButtonIndex < options.buttonCallbacks.length)
-                options.buttonCallbacks[selectedButtonIndex](options);
+            if (options.buttonCallbacks != null && selectedButtonIndex < options.buttonCallbacks.length) {
+                var selectedCallback = options.buttonCallbacks[selectedButtonIndex];
+                  
+                // Jockey can get stuck if the callback uses an alert or tries to reload the page, etc.
+                // Wrapping the callback in a setTimeout() seems to avoid that.
+                setTimeout(function() {
+                    selectedCallback(options);
+                }, 0);
+            }
 
             // Unregister the temp callback
             Jockey.off('confirm-callback');
